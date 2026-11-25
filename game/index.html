@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Golden Skillet — Rush Hour Kitchen</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #241a12; height: 100%; overflow: hidden; }
+  #wrap { display: flex; align-items: center; justify-content: center; height: 100vh; }
+  canvas { width: min(100vw, 177.78vh); height: min(100vh, 56.25vw); display: block;
+           background: #3a2a1c; box-shadow: 0 0 60px rgba(0,0,0,.6); image-rendering: auto; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="1280" height="720"></canvas></div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
